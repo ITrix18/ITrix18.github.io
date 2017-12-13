@@ -58,6 +58,15 @@ body{
 	-moz-osx-font-smoothing:grayscale;
 }
 
+@font-face {
+    font-family: 'myfont';
+    src: url('American Captain.ttf') format('truetype');
+}
+.cap{
+font-family:'myfont';
+color:#fefefe;
+}
+
 a{
 	color: #3498db;
 }
@@ -79,6 +88,7 @@ a:focus{
 }
 .container{
 	overflow:hidden;
+	font-family:Calibri;
 }
 .section-name{
 	font-weight:700;
@@ -110,7 +120,9 @@ a:focus{
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:300;
-	font-size:80px;
+	letter-spacing:4px;
+	color:#fefefe;
+	font-size:50px;
 }
 .section-description{
 	font-weight:300;
@@ -215,6 +227,7 @@ a:focus{
 	text-align:center;
 	margin:50px auto 0 auto;
 }
+
 .social-btn-container .social-btn-box{
 	display:inline-block;
 	width:60px;
@@ -430,8 +443,9 @@ a:focus{
 	}
 }
 
+
 @media screen and (max-width: 992px){
-	#headernavigation{
+	.headernavigation{
 		background:rgba(0,0,0,.5);
 	}
 	.navbar-default .navbar-toggle:hover, 
@@ -917,6 +931,8 @@ form.news-letter .btn:hover{
 		max-width:830px;
 	}
 }
+
+
 
 
 

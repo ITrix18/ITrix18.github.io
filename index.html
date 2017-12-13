@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+
+
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('font/American Captain.ttf');
+    font-weight: bold;
+}
+.t1{
+text-align:center;
+}
+.copyright{
+
+font-weight:400;
+}
+
+</style>
 	<meta charset="UTF-8">
 	<title>ITrix'18</title>
 	<meta name="description" content="ITrix'18 Official Website Coming Soon" >
@@ -58,22 +75,22 @@
 		</div> <!-- /.navbar-header -->
 
 		<nav class="collapse navbar-collapse">
-			<!-- Main navigation -->
-			<ul id="headernavigation" class="nav navbar-nav">
-				<li class="active"><a href="#page-top">Home</a></li>	
-				<li><a href="#subscribe">Contact</a></li>		
-			</ul> <!-- /.nav .navbar-nav -->
-		</nav> <!-- /.navbar-collapse  -->
+			
+			<ul class="nav navbar-nav headernavigation">
+				<li class="nav navbar-nav"><a href="#page-top">Home</a></li>	
+				<li class="nav navbar-nav"><a href="#subscribe">Contact</a></li>		
+			</ul> 
+		</nav> 
 	</div><!-- /#main-menu -->
 	<!-- Main Menu End -->
 	
 
 	<!-- Page Top Section -->
-	<section id="page-top" class="section-style" data-background-image="images/background/page-top.jpg">
+	<section id="page-top" class="section-style" data-background-image="images/background/abcd.jpg">
 		<div class="pattern height-resize">
-			<div class="container">
+			<div class="container" id="riy">
 				<h1 class="site-title">
-					<font face="Bradley Hand ITC"><b>ITRIX'18</b></font>
+					<font face="myFirstFont" color="#fefefe"><b>ITRIX'</font><font face="myFirstFont" color="#1a99bb">18</b></font>
 				</h1><!-- /.site-title -->
 				<!--<h3 class="section-name">
 					<span>
@@ -81,7 +98,7 @@
 					</span>
 				</h3><!-- /.section-name -->
 				<h2 class="section-title">
-					<font face="Droid Sans" size="40">Coming Soon</font>
+					<font face="myFirstFont" size="40" >Coming Soon</font>
 				</h2><!-- /.Section-title  -->
 				<div id="time_countdown" class="time-count-container">
 
@@ -188,23 +205,45 @@ var x = setInterval(function() {
 	<!-- Subscribe Section -->
 	<section id="subscribe" class="section-style" data-background-image="images/background/nw.jpg">
 		<div class="pattern height-resize">
-			<div class="container">
+			<div class="container" id="cont" >
 			
-				<h3 class="section-title">
-					Contacts
-				</h3><!-- /.Section-title  -->
-					<h3 class="section-name">
-					<span>
-					Chairman	
-					</span>
-				</h3><!-- /.section-name -->
-				<center><h4>B.Manishankar<h4>
-				<h4>Chairman,ISTA<h4>
-				<h4>843831163<h4>
-				<h4>manishankarbalu@gmail.com<h4>
+				
 				<center>
+				<table class="t1">
+				
+				<tr>
+				
+				<td >
+					<h3 class="section-name">
+					
+					<font color="#1a99bb"><b>Chairman</b></font>
+					
+				</h3>
+				
+				</td>
+				</tr><!--  -->
+				<tr>
+				<td>
+				<h4><font color="#eaecee"><b>B.Manishankar</b></font><h4>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<h4><font color="#eaecee"><b>8438431163</b></font><h4>
+				</td>
+				</tr>
+				<tr>
+				<td>
+				<h4><font color="#eaecee"><b>manishankarbalu@gmail.com</b></font><h4>
+				</td>
+				</tr>
+				</b>
+				</table>
+				</center>
+				
 				<div class="social-btn-container">
 					<span class="social-btn-box">
+					<br/>
 						<a href="https://www.facebook.com/itrixceg/" class="facebook-btn">
 							<i class="fa fa-facebook"></i></a>
 						</span><!-- /.social-btn-box -->
@@ -218,7 +257,7 @@ var x = setInterval(function() {
 							<a href="https://drive.google.com/open?id=1tb3Vj3h3Ug46aDIOZThbSFHS92zn0ZWH" class="brochure-btn"><i class="fa fa-briefcase"></i></a>
 						</span>
 						<span class="social-btn-box">
-						<a href="#" class="youtube-btn">
+						<a href="#subscribe" class="youtube-btn">
 							<i class="fa fa-youtube"></i></a>
 						</span>
 				</div><!-- /.social-btn-container -->
@@ -231,7 +270,7 @@ var x = setInterval(function() {
 		<!-- Footer Section -->
 		<footer id="footer-section">
 			<p class="copyright">
-				&copy;2017, All Rights Reserved. Designed by & Developed by <a href="http://www.audist.net">ISTA</a>
+				<b>&copy;2017, All Rights Reserved. Designed by & Developed by <a href="http://www.audist.net">ISTA</a></b>
 			</p>
 		</footer>
 		<!-- Footer Section End -->
