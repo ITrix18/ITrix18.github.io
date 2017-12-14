@@ -70,6 +70,9 @@ color:#fefefe;
 a{
 	color: #3498db;
 }
+.time-name{
+color:#ffffff;
+}
 a:focus{
 	outline:none;
 	outline-offset:inherit;
@@ -84,7 +87,7 @@ a:focus{
 }
 .pattern{
 	background:rgba(0,0,0,.5) url(../images/pattern.png);
-	padding-top:100px;
+	padding-top:110px;
 }
 .container{
 	overflow:hidden;
